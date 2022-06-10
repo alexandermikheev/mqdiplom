@@ -869,6 +869,9 @@ input.search-input {
     min-width: 320px;
     max-width: 640px;
   }
+  .shop-blocks{
+    justify-content: center;
+  }
 }
 
 @media (min-width: 641px) and (max-width: 1200px) {
