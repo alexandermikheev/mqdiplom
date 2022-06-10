@@ -35,6 +35,9 @@ a {
   color: #ffffff;
   box-sizing: border-box;
 }
+.button:hover {
+  background-color: #947f3f;
+}
 .logo-menu {
   display: flex;
   justify-content: space-between;
@@ -286,6 +289,9 @@ input.search-input {
   font-size: 14px;
   margin-top: 20px;
   cursor: pointer;
+}
+.subscribe-botton:hover {
+  background-color: #947f3f;
 }
 /* Tags*/
 .tags-list {
