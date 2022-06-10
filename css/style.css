@@ -338,8 +338,6 @@ input.search-input {
 /*footer*/
 .social-media {
   margin-top: 65px;
-  min-width: 780px;
-  max-width: 1170px;
   background-color: #f4f7f6;
   margin-left: auto;
   margin-right: auto;
@@ -861,6 +859,10 @@ input.search-input {
   .tags-item {
     padding: 3px 10px 3px 10px;
   }
+  .social-media {
+    min-width: 320px;
+    max-width: 640px;
+  }
 }
 
 @media (min-width: 641px) and (max-width: 1200px) {
@@ -925,11 +927,12 @@ input.search-input {
   .card-name {
     font-size: 1.063em;
   }
+  .social-media {
+    min-width: 641px;
+    max-width: 1200px;
+  }
 }
-.social-media {
-  min-width: 320px;
-  max-width: 640px;
-}
+
 @media (min-width: 1201px) {
   .popup-close {
     right: -334px;
@@ -946,6 +949,10 @@ input.search-input {
   .trend-line-link {
     font-size: 1.25rem;
     line-height: 1.2;
+  }
+  .social-media{
+    min-width: 780px;
+    max-width: 1170px;
   }
 }
 @media only screen and (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
