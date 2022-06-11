@@ -36,7 +36,7 @@ a {
   box-sizing: border-box;
 }
 .button:hover {
-  background-color: #947f3f;
+  background-color: #323232;
 }
 .logo-menu {
   display: flex;
@@ -246,6 +246,7 @@ main {
   font-size: 13px;
   border: none;
 }
+
 input.search-input {
   padding-left: 19px;
   padding-right: 19px;
@@ -261,7 +262,7 @@ input.search-input {
   background-repeat: no-repeat;
 }
 .search-button:hover {
-  background-color: #947f3f;
+  background-color: #323232;
 }
 
 /*input subcribe */
@@ -279,6 +280,7 @@ input.search-input {
   padding-right: 19px;
   box-sizing: border-box;
 }
+
 .subscribe-botton {
   font-weight: bold;
   height: 48px;
@@ -291,7 +293,7 @@ input.search-input {
   cursor: pointer;
 }
 .subscribe-botton:hover {
-  background-color: #947f3f;
+  background-color: #323232;
 }
 /* Tags*/
 .tags-list {
@@ -498,7 +500,7 @@ input.search-input {
   text-decoration: none;
 }
 .trend-line-link:hover {
-  color: #b9a565;
+  color: #323232;
 }
 
 .trend-content {
@@ -613,8 +615,11 @@ input.search-input {
 }
 
 .shop-line-link {
-  color: #000000;
+  color: #000;
   text-decoration: none;
+}
+div.shop-txt  a{
+  color:#c0ae78;
 }
 
 .shop-old-price {
@@ -776,8 +781,15 @@ input.search-input {
   font-weight: bold;
   border: none;
 }
-
-@media (max-width: 640px) {
+.menu-link:focus, .teg-link:focus, input:focus, .trend-line-link:focus, a:focus, .category-txt:focus, .card-name:focus, .sidebar-txt:focus, .search-button:focus, .input-emai:focus, .subscribe-botton:focus,  .tags-item:focus, .themes-item:focus, .shop-line-link:focus, .shop-line-link:focus, .shop-button:focus, .social-item:focus{
+  outline: none;
+  border: 1px solid #b59f5b;
+}
+.menu-link:focus-visible, .teg-link:focus-visible, input:focus-visible, a:focus, .trend-line-link:focus-visible, .category-txt:focus-visible, .card-name:focus-visible, .sidebar-txt:focus-visible, .search-button:focus-visible, .input-emai:focus-visible, .subscribe-botton:focus-visible,  .tags-item:focus-visible, .themes-item:focus-visible, .shop-line-link:focus-visible, .shop-line-link:focus-visible, .shop-button:focus-visible, .social-item:focus-visible{
+  outline: none;
+  border: 1px solid #b59f5b;
+}
+@media (max-width: 640px) { 
   .popup-close {
     right: -334px;
   }
