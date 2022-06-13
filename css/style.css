@@ -94,6 +94,9 @@ a {
   color: white;
   cursor: pointer;
 }
+.menu-link:hover{
+  border-bottom: 1px solid #ffffff;
+}
 .logo {
   z-index: 20;
 }
@@ -158,6 +161,9 @@ main {
 .category-txt {
   color: #b59f5b;
 }
+.category-txt:hover{
+  border-bottom: 1px solid #b59f5b;
+}
 /*Стилизация текста контента */
 .card {
   margin-left: 30px;
@@ -181,6 +187,9 @@ main {
   color: #000;
   line-height: 24px;
   text-transform: uppercase;
+}
+.card-name:hover{
+  color: #b59f5b;
 }
 .card-content {
   margin-top: 55px;
@@ -279,7 +288,7 @@ input.search-input {
   padding-left: 19px;
   padding-right: 19px;
   box-sizing: border-box;
-}
+}s-item
 
 .subscribe-botton {
   font-weight: bold;
@@ -306,7 +315,6 @@ input.search-input {
 .tags-item {
   border: 3px solid #eeeeee;
   font-size: 12px;
-  font-weight: bold;
   text-transform: uppercase;
   padding: 3px 16px 3px 16px;
   margin-right: 6px;
@@ -315,6 +323,9 @@ input.search-input {
 .tags-item a {
   text-decoration: none;
   color: #000;
+}
+.tags-item:hover{
+  font-weight: bold;
 }
 .tags-item::after {
   content: "";
@@ -336,6 +347,9 @@ input.search-input {
   display: flex;
   padding-bottom: 19px;
   padding-top: 19px;
+}
+.themes-item a:hover{
+  color: #b59f5b;
 }
 .number-articles {
   color: #b59f5b;
@@ -396,6 +410,10 @@ input.search-input {
 }
 .tumblr {
   background-image: url(../svg/003-tumblr.svg);
+}
+.social-list div:hover{
+  width: 25px;
+  height: 25px;
 }
 .footer-txt {
   display: flex;
@@ -500,7 +518,7 @@ input.search-input {
   text-decoration: none;
 }
 .trend-line-link:hover {
-  color: #323232;
+  color: #b59f5b;
 }
 
 .trend-content {
@@ -781,11 +799,11 @@ div.shop-txt  a{
   font-weight: bold;
   border: none;
 }
-.menu-link:focus, .teg-link:focus, input:focus, .trend-line-link:focus, a:focus, .category-txt:focus, .card-name:focus, .sidebar-txt:focus, .search-button:focus, .input-emai:focus, .subscribe-botton:focus,  .tags-item:focus, .themes-item:focus, .shop-line-link:focus, .shop-line-link:focus, .shop-button:focus, .social-item:focus{
+.menu-link:focus, .popup-select:focus, .popup-textaria:focus, .teg-link:focus, input:focus, .trend-line-link:focus, a:focus, .category-txt:focus, .card-name:focus, .sidebar-txt:focus, .search-button:focus, .input-emai:focus, .subscribe-botton:focus,  .tags-item:focus, .themes-item:focus, .shop-line-link:focus, .shop-line-link:focus, .shop-button:focus, .social-item:focus{
   outline: none;
   border: 1px solid #b59f5b;
 }
-.menu-link:focus-visible, .teg-link:focus-visible, input:focus-visible, a:focus, .trend-line-link:focus-visible, .category-txt:focus-visible, .card-name:focus-visible, .sidebar-txt:focus-visible, .search-button:focus-visible, .input-emai:focus-visible, .subscribe-botton:focus-visible,  .tags-item:focus-visible, .themes-item:focus-visible, .shop-line-link:focus-visible, .shop-line-link:focus-visible, .shop-button:focus-visible, .social-item:focus-visible{
+.menu-link:focus-visible, .teg-link:focus-visible,.popup-textaria:focus-visible, .popup-select:focus-visible, input:focus-visible, a:focus, .trend-line-link:focus-visible, .category-txt:focus-visible, .card-name:focus-visible, .sidebar-txt:focus-visible, .search-button:focus-visible, .input-emai:focus-visible, .subscribe-botton:focus-visible,  .tags-item:focus-visible, .themes-item:focus-visible, .shop-line-link:focus-visible, .shop-line-link:focus-visible, .shop-button:focus-visible, .social-item:focus-visible{
   outline: none;
   border: 1px solid #b59f5b;
 }
